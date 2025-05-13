@@ -34,9 +34,16 @@ agno_playground/
 
 ## Agent Categories
 
-1. **Generic Agents**: General-purpose agents like web search and finance agents
-2. **Content Agents**: Specialists in content strategy, writing, SEO, and social media
-3. **Marketing Agents**: Experts in marketing strategy and market research
+1. **Standalone Agents**: General-purpose agents directly exposed in the playground UI
+   - Web Agent: Helps with web search and information retrieval
+   - Finance Agent: Provides financial analysis and calculations
+
+2. **Team Agents**: Specialists that are part of teams but not directly exposed
+   - Content Agents: Specialists in content strategy, writing, SEO, and social media
+   - Marketing Agents: Experts in marketing strategy and market research
+
+3. **Workflow Agents**: Agents used within workflows but not directly exposed
+   - Blog Workflow Agents: Various specialists used in the blog creation workflow
 
 ## Teams
 
@@ -68,3 +75,4 @@ The application will be accessible at http://localhost:7777.
 - Define teams in a separate package
 - Define workflows in a separate package
 - Keep configuration centralized
+- Separate standalone agents from team/workflow-specific agents
